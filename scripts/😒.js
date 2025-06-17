@@ -18,7 +18,7 @@ module.exports = {
   onChat: async function ({ event, message, usersData }) {
     const prefix = global.GoatBot.config.prefix;
     const body = (event.body || "").toLowerCase().trim();
-    const triggers = ["😒","😒😒","😒😒😒", `${prefix}owner`];
+    const triggers = ["😒","😒😒", `${prefix}owner`];
     if (!triggers.includes(body)) return;
     await module.exports.sendOwnerInfo({ event, message, usersData });
   },
