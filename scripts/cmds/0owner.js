@@ -16,11 +16,11 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: 'Eren',
+      name: '𝐒𝐇𝐀𝐍𝐓𝐎',
       gender: '𝐌𝐚𝐥𝐞',
-      age: '16±',
-      height: '5.11',
-      choise: 'Russian 😞',
+      age: '1𝟖±',
+      height: '𝟔.𝐅𝐈𝐓',
+      choise: '𝐘𝐎𝐔 😞',
       nick: '𝐉𝐚𝐦𝐚𝐢  '
     };
 
